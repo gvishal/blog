@@ -1,0 +1,25 @@
+﻿<html>
+	<head>
+		<title>Welcome</title>
+		<link type="text/css" rel="stylesheet" href="stylesheets/newpost.css">
+		<link type="text/css" rel="stylesheet" href="stylesheets/common.css">
+	</head>
+
+	<body>
+		<div id="title"><a href="\">Blog</a></div>
+		<h1>Create a new post</h1>
+		<form method="post">
+			<label>
+				<div>Subject</div>
+				<input type="text" name="subject" value="{{subject}}"><br>
+			</label>
+			<label>
+				<div>Content</div>
+				<textarea name="content">{{content}}</textarea><br>
+			</label>
+			<input type="submit">
+		</form>
+		<div class="error">{{error}}</div>
+	</body>
+</html>
+

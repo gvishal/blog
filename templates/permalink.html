@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<title>Welcome</title>
+		<link type="text/css" rel="stylesheet" href="stylesheets/permalink.css">
+		<link type="text/css" rel="stylesheet" href="stylesheets/common.css">
+	</head>
+
+	<body>
+		<div id="title"><a href="\">Blog</a></div>
+		<div id="new_post"><a href="\newpost">Create a New Post</a></div>
+		<div id="content">
+			<div class="post">
+				<div class="post-heading">
+					<div class="post-title">
+						<a href="/{{post.key().id()}}">{{post.subject}}</a>
+					</div>
+					<div class="post-date">
+						{{post.created}}
+					</div>
+				</div>
+				<hr>
+				<div class="post-content">
+					{{post.content}}
+				</div>
+			</div>
+		</div>
+
+	</body>
+</html>

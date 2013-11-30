@@ -1,0 +1,10 @@
+input[type=text] {
+	padding: 2px;
+}
+
+textarea {
+			width: 400px;
+			height: 200px;
+			font-size: 17px;
+			font-family: monospace;
+		}

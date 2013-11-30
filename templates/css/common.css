@@ -1,0 +1,25 @@
+﻿#title {
+	font-size: 30px;
+	text-align: center;
+	color: #000;
+}
+
+body {
+    position: relative;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+
+    width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    color: #333;
+}
+
+div a {
+	text-decoration: none;
+}
+
+.post-title {
+	font-weight: bold;
+	font-size: 20px;
+}
